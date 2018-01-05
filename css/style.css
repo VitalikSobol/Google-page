@@ -1,0 +1,261 @@
+body{
+    font-family: arial,sans-serif;
+}
+
+ul.nav {
+    margin: 20px 20px;
+}
+
+ul.nav a {
+    color: #000;
+    padding: 0 10px;
+    font-size: small;
+}
+
+ul.nav a:not(.btn):hover {
+    text-decoration: underline;
+}
+
+ul li a i.fa-th{
+    font-size: 21px;
+    padding: 0 12px 0 5px;
+}
+
+ul.nav a.btn {
+    color: #fff;
+}
+
+.logo {
+    padding-top: 109px;
+}
+
+#logo {
+    padding-top: 26px;
+    text-align: center;
+    height: 233px;
+}
+
+.main-div-in-main-input {
+    padding-right: 0;
+    margin-top: 20px;
+    height: 46px;
+    max-width: 584px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.main-div-in-main-input:hover {
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.main-div-in-main-input input {
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 480px;
+    border: none;
+}
+
+div.main-div-in-main-input input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 768px){
+    .main-div-in-main-input{
+        max-width: 400px;
+    }
+    div.main-div-in-main-input input{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .main-div-in-main-input{
+        max-width: 300px;
+    }
+    div.main-div-in-main-input input{
+        width: 200px;
+    }
+}
+
+div.main-div-in-main-input a i {
+    padding: 0 10px 0 5px;
+    min-width: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #999;
+}
+
+div.for-position-hidden-div{
+    position: relative;
+    max-width: 584px;
+    padding: 0;
+}
+
+.hidden-div {
+    position: absolute;
+    z-index: 10;
+    background: #fff;
+    display: none;
+    padding: 0;
+    max-width: 584px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.show {
+    display: block;
+}
+
+@media screen and (max-width: 768px){
+    div.for-position-hidden-div{
+        max-width: 400px;
+    }
+    .hidden-div{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    div.for-position-hidden-div{
+        max-width: 300px;
+    }
+    .hidden-div{
+        width: 300px;
+    }
+}
+
+.hidden-div ul {
+    padding: 0;
+}
+
+.hidden-div ul li {
+    margin-bottom: 3px;
+    list-style: none;
+    padding: 0;
+}
+
+.hidden-div ul li {
+    padding: 0 10px;
+}
+
+.hidden-div ul li:hover {
+    background: #eee;
+}
+
+.hidden-div ul li span a {
+    color: #52188c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hidden-div ul li span.float-right a {
+    padding-right: 10px;
+    font-weight: normal;
+    color: #36c;
+    font-size: 14px;
+}
+
+.hidden-div ul li span.float-right a:hover {
+    text-decoration: underline;
+}
+
+.hidden-div-2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.hidden-div-2 input,
+center input {
+    padding: 0 10px;
+    border-radius: 2px;
+    background: #f1f1f1;
+    font-size: small;
+    font-weight: bold;
+    color: #777;
+    border: 1px solid #fff;
+    height: 30px;
+}
+
+.hidden-div-2 input:hover,
+center input:hover {
+    border: 1px solid #ddd;
+    color: #000;
+}
+
+.two-buttons {
+    margin-bottom: 10px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 9;
+}
+
+.two-buttons > center {
+    height: 38px;
+}
+
+.two-buttons input {
+    margin: 0 1px;
+    height: 100%;
+    padding: 5px 17px;
+}
+
+div.langs {
+    margin-top: 26px;
+    font-size: small;
+    text-align: center;
+}
+
+div.langs p {
+    display: inline;
+}
+
+div.langs a{
+    color: #1a0dab;
+    padding: 0 3px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    background: #f2f2f2;
+}
+
+div.footer-country{
+    width: 100vw;
+    height: 42px ;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+}
+
+div.footer-menu{
+    width: 100vw;
+    height: 41px ;
+    border-top: 1px solid #e4e4e4;
+    line-height: 37px;
+}
+
+div.footer-country span{
+    margin-left: 30px;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+div.footer-menu span{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+div.footer-menu span a{
+    font-size: small;
+    color: #666;
+    white-space: nowrap;
+}
+
+div.footer-menu span.for-business a{
+    padding-right: 23px;
+}
+
+div.footer-menu span.setting-user a{
+    padding-left: 23px;
+}

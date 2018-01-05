@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Google</title>
+    <link rel="shortcut icon" href="google.ico" type="images/x-icon">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Почта</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Картинки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" title="Приложения Google"><i class="fa fa-th" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="#">Войти</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container" id="logo">
+            <img class="logo" src="img/Google-logo.png" alt="Google">
+        </div>
+        <div class="container main-div-in-main-input">
+            <input id="srch" type="text" title="Поиск">
+            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Экранная клавиатура"><i class="fa fa-keyboard-o" aria-hidden="true"></i></a>
+            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Голосовой поиск"><i class="fa fa-microphone" aria-hidden="true"></i></a>
+        </div>
+        <div class="container for-position-hidden-div">
+            <div class="container hidden-div">
+                <ul>
+                    <li>
+                        <span><a href="#">1</a></span>
+                        <span class="float-right"><a href="#">Удалить</a></span>
+                    </li>
+                    <li>
+                        <span><a href="#">2</a></span>
+                        <span class="float-right"><a href="#">Удалить</a></span>
+                    </li>
+                    <li>
+                        <span><a href="#">3</a></span>
+                        <span class="float-right"><a href="#">Удалить</a></span>
+                    </li>
+                    <li>
+                        <span><a href="#">4</a></span>
+                        <span class="float-right"><a href="#">Удалить</a></span>
+                    </li>
+                    <li>
+                        <span><a href="#">5</a></span>
+                        <span class="float-right"><a href="#">Удалить</a></span>
+                    </li>
+                </ul>
+                <div class="hidden-div-2">
+                    <input type="button" value="Поиск в Google">
+                    <input type="button" value="Мне повезёт!">
+                </div>
+            </div>
+        </div>
+        <div class="two-buttons">
+            <center>
+                <input type="button" value="Поиск в Google">
+                <input type="button" value="Мне повезёт!">
+            </center>
+        </div>
+        <div class="container langs">
+            <p>Сервисы Google доступны на разных языках:</p>
+            <a href="#">English</a>
+            <a href="#">Беларуская</a>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-country">
+            <span>Беларусь</span>
+        </div>
+        <div class="footer-menu d-flex justify-content-between">
+            <span class="for-business">
+                    <a href="#">Реклама</a>
+                    <a href="#">Для бизнеса</a>
+                    <a href="#">Всё о Google</a>
+                </span>
+            <span class="setting-user">
+                    <a href="#">Конфиденциальность</a>
+                    <a href="#">Условия</a>
+                    <a href="#">Настройки</a>
+                    <a href="#">Перейти на Google.com</a>
+                </span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
